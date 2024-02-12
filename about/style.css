@@ -183,7 +183,7 @@
 }
 
 .our-company .contact-details {
-  background-image: url(/img/paral-04.jpg);
+  background-image: url(../img/paral-04.jpg);
   padding: 20px 0;
 }
 
@@ -203,7 +203,7 @@
 }
 
 .our-company .opening-times {
-  background-image: url(/img/bg-color.jpg);
+  background-image: url(../img/bg-color.jpg);
   flex-grow: 1;
   flex-basis: 0;
   padding: 20px 0;
@@ -230,7 +230,7 @@
 }
 
 .our-company .promotions {
-  background-image: url(/img/vertical-03.jpg);
+  background-image: url(../img/vertical-03.jpg);
   background-size: cover;
   background-position: 50% 50%;
   flex-grow: 1;
@@ -239,7 +239,7 @@
 }
 
 .our-company .custom {
-  background-image: url(/img/vertical-02.jpg);
+  background-image: url(../img/vertical-02.jpg);
   background-size: cover;
   background-position: 50% 50%;
   flex-grow: 1;
@@ -292,7 +292,7 @@
 }
 
 .company-numbers {
-  background-image: url(/img/paral-09.jpg);
+  background-image: url(../img/paral-09.jpg);
   background-size: cover;
   background-position: 50% 8%;
   gap: 140px;
@@ -407,7 +407,7 @@
 }
 
 .contact-us-now {
-  background-image: url(/img/banner-6.jpg);
+  background-image: url(../img/banner-6.jpg);
   background-size: cover;
   padding: 40px 0;
   gap: 200px;
@@ -446,7 +446,7 @@
 }
 
 .edile-bottom {
-  background-image: url(/img/paral-04.jpg);
+  background-image: url(../img/paral-04.jpg);
   background-size: cover;
 }
 
