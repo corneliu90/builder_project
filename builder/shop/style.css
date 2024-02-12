@@ -1,0 +1,312 @@
+.slider {
+  background-image: url(../img/paral-17.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+  position: relative;
+}
+
+.background-opacity {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  top: 0;
+  left: 0;
+}
+
+.slider .edile .logo-edile {
+  width: 178px;
+  padding-top: 25px;
+}
+
+.slider .menu {
+  list-style-type: none;
+  gap: 64px;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.slider .menu .btn-quotation {
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  background-color: #ebc858;
+  border: none;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.slider .menu .btn-quotation:hover {
+  background-color: black;
+}
+
+.slider .menu .selected {
+  border-style: none none solid;
+}
+
+.slider .edile .about-us {
+  padding: 50px 222px;
+}
+
+.slider .edile .about-us .text-about-us {
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.slider .edile .about-us .lorem {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.slider .edile .about-us .btn-promotions {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-color: #ebc858;
+  border: 0;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.slider .instrument-title {
+  padding-bottom: 100px;
+}
+
+.slider .edile .drill {
+  background-image: url(/img/product-03.jpg);
+  background-size: cover;
+  padding: 30px;
+}
+
+.slider .edile .cutter {
+  background-image: url(/img/product-01.jpg);
+  background-size: cover;
+  padding: 30px;
+}
+
+.slider .edile .toolbox {
+  background-image: url(/img/product-04.jpg);
+  background-size: cover;
+  padding: 30px;
+}
+
+.slider .edile .helmet {
+  background-image: url(/img/product-02.jpg);
+  background-size: cover;
+  padding: 30px;
+}
+
+.slider .edile .instruments .btn-drill {
+  background-color: #ebc858;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+  padding: 5px 10px;
+  margin-bottom: 170px;
+}
+
+.slider .edile .instruments .name-instrument {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #ebc858;
+}
+
+.new-instruments .new {
+  color: #7e7e7e;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.new-instruments .products {
+  color: black;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.new-instruments .tools .img-tools {
+  width: 100%;
+}
+
+.new-instruments .test-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px 30px;
+}
+
+.new-instruments .test-grid .tools .miling {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.new-instruments .test-grid .tools .prise {
+  color: #ebc858;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.new-instruments .circle::before {
+  content: "SALE";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: #ebc858;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 350px;
+  top: 155px;
+}
+
+.construction {
+  background-image: url(/img/banner-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.renovate {
+  background-image: url(/img/banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.construction .info-construct {
+  padding: 50px 0;
+}
+
+.construction .from {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.construction .construct-title {
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.construction .more-info {
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-color: white;
+  border-width: 1px;
+  padding: 15px 30px;
+}
+
+.edile-bottom {
+  background-image: url(/img/paral-04.jpg);
+  background-size: cover;
+}
+
+.edile-bottom .edile-steps {
+  padding-right: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.edile-bottom .edile-steps .test-2 {
+  padding: 0 30px;
+}
+
+.edile-bottom .edile-constructions {
+  flex-grow: 1;
+  flex-basis: 0;
+  gap: 30px;
+}
+
+.edile-bottom .edile-constructions .img-logo-edile-bottom {
+  width: 178px;
+}
+
+.edile-bottom .edile-constructions .text-32 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.edile-bottom .edile-constructions .text-32 span {
+  text-decoration: underline;
+}
+
+.edile-bottom .edile-constructions .social-icons .img-icons {
+  width: 22px;
+  padding: 0 7px;
+}
+
+.edile-bottom .edile-constructions .text-33 {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: inline;
+  padding-left: 40px;
+}
+
+.edile-bottom .edile-constructions .text-ul {
+  /*  list-style-image: url(img/iocn-arrow-right-white.png); */
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.edile-bottom .edile-constructions .text-ul .img-test {
+  width: 10px;
+  padding-right: 10px;
+}
+
+.edile-bottom .wordpress .text-34 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 13px;
+  text-transform: uppercase;
+  padding: 0 25px;
+}
+
+.edile-bottom .wordpress {
+  position: relative;
+}
+
+.edile-bottom .wordpress::before {
+  content: "";
+  border-top: 1px solid #8a8a8a;
+  width: 100%;
+  position: absolute;
+  top: -11px;
+}

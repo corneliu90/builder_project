@@ -1,0 +1,1048 @@
+.slider {
+  background-image: url(img/paral-08.jpg);
+}
+.slider .edile .logo-edile {
+  width: 178px;
+  padding-top: 25px;
+}
+
+.slider .menu {
+  list-style-type: none;
+  gap: 90px;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.slider .menu .btn-quotation {
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  background-color: #ebc858;
+  border: none;
+  cursor: pointer;
+}
+
+.slider .menu .selected {
+  border-style: none none solid;
+}
+
+.slider .edile .text {
+  padding: 149px 0;
+}
+
+.slider .edile .text .text-bult-h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  line-height: 90px;
+}
+
+.slider .edile .text .text-years-h2 {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.slider .edile .text .text-theme-h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.slider .edile .text .btn-2 {
+  padding: 10px 15px;
+  color: #ebc858;
+  background-color: transparent;
+  border-color: #ebc858;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  margin: 12px;
+  transition-property: color background-color;
+  transition-duration: 0.5s;
+}
+
+.slider .edile .text .btn-2:hover {
+  background-color: #ebc858;
+  color: white;
+}
+
+.slider .edile .steps {
+  gap: 35px;
+  position: relative;
+  top: 50px;
+}
+
+.slider .edile .step {
+  width: 28%;
+  background-size: cover;
+  border-right: 3px solid #ebc858;
+}
+
+.slider .edile .construction {
+  background-image: url(img/banner-1.jpg);
+}
+
+.slider .edile .renovation {
+  background-image: url(img/banner-2.jpg);
+}
+
+.slider .edile .restructuring {
+  background-image: url(img/banner-3.jpg);
+}
+
+.slider .edile .step .text-h2 {
+  width: 20%;
+  text-align: end;
+  vertical-align: top;
+}
+
+.slider .edile .step .unu-h2 {
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.slider .edile .step .text-p {
+  width: 60%;
+  padding: 0px 20px;
+}
+
+.our-history {
+  background-image: url(img/bg-bw.jpg);
+  padding-top: 130px;
+}
+
+.our-history .history {
+  gap: 300px;
+}
+
+.our-history .history .our-history-foto .slider-01 {
+  width: 263px;
+  position: absolute;
+  top: 220px;
+  left: -220px;
+}
+
+.our-history .history .our-history-foto .slider-02 {
+  width: 313px;
+}
+
+.our-history .history .our-history-foto {
+  position: relative;
+}
+
+.our-history .history .text-p2 {
+  color: #7e7e7e;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.our-history .history .text-3 {
+  color: #2d2d2d;
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.our-history .history .text-4 {
+  color: #7e7e7e;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.our-history .history .text-4 span {
+  text-decoration: underline;
+}
+
+.our-history .history .lorem {
+  width: 39%;
+}
+
+.our-history .history .lorem .signature {
+  width: 300px;
+  padding-top: 20px;
+}
+
+.works {
+  background-color: #7e7e7e;
+  background-image: url(img/paral-01.jpg);
+  background-repeat: no-repeat;
+}
+
+.works .our-projects .text-5 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.works .our-projects .text-6 {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+
+.works .menu-renovation .menu-2 {
+  text-transform: uppercase;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 17px;
+  text-align: right;
+  gap: 30px;
+  align-items: center;
+}
+
+.works .my-projects {
+  padding-top: 80px;
+}
+
+.works .my-projects .menu-renovation .menu-2 .selected-2 {
+  border-style: none none solid;
+  border-color: #ebc858;
+  border-width: 2px;
+}
+
+.works .arhitects .project {
+  background-image: url(img/project-01-700x1000.jpg);
+  background-size: cover;
+}
+
+.works .arhitects .renovate {
+  background-image: url(img/project-02-700x1000.jpg);
+  background-size: cover;
+}
+
+.works .arhitects .construct {
+  background-image: url(img/project-03-700x1000.jpg);
+  background-size: cover;
+}
+
+.works .arhitects .project-2 {
+  background-image: url(img/project-004-700x1000.jpg);
+  background-size: cover;
+}
+
+.works .arhitects .renovate-2 {
+  background-image: url(img/project-06-700x1000.jpg);
+  background-size: cover;
+}
+
+.works .arhitects .arhitect .btn-project {
+  background-color: black;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 400px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.works .arhitects .arhitect {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 20px;
+}
+
+.works .arhitects .arhitect .align-txt {
+  padding: 0 25px;
+}
+
+.works .arhitects .arhitect .align-txt .btn-plus {
+  background-color: #ebc858;
+  border: none;
+  font-size: 25px;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+.works .arhitects .arhitect .align-txt .text-7 {
+  margin: 0;
+}
+
+.works .arhitects {
+  padding: 0 25px;
+  position: relative;
+  top: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+  gap: 30px;
+}
+
+.wrapper {
+  background-image: url(img/bg-bw-02.jpg);
+  background-size: cover;
+}
+
+.wrapper .building-site {
+  padding-top: 90px;
+}
+
+.wrapper .building-site .text-h3 {
+  color: #7e7e7e;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper .building-site .text-h1 {
+  color: #2d2d2d;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.wrapper .line {
+  /*  border-bottom: 1px solid #f1f1f1;
+  height: 16px;
+  width: 30%; */
+  height: 1px;
+  background-color: #f1f1f1;
+  width: 30%;
+  position: relative;
+}
+
+.wrapper .line::before {
+  content: "";
+  border: 7px solid #ebc858;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 45%;
+  top: -15px;
+}
+
+/* .wrapper .line .brd-box {
+  border: 7px solid #ebc858;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+} */
+
+.wrapper .our-steps .numbers {
+  width: 30%;
+}
+
+.wrapper .our-steps {
+  padding-bottom: 30px;
+}
+
+.wrapper .numbers .nmb-01 {
+  color: #2d2d2d;
+  font-size: 100px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 100px;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.wrapper .numbers .nmb-text {
+  color: #2d2d2d;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.wrapper .numbers .nmb-p {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.wrapper .solar-conten .download-brochure {
+  width: 29%;
+}
+
+.wrapper .energy {
+  background-image: url(img/banner-4.jpg);
+  background-size: cover;
+  padding-bottom: 27px;
+}
+
+.wrapper .energy .conten {
+  padding: 28px;
+}
+
+.wrapper .energy .solar {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.wrapper .energy .brochure {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+
+.wrapper .energy .text-8 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.wrapper .download {
+  background-color: #ebc858;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.wrapper .download .img-download {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.wrapper .download .text-9 {
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  line-height: 20px;
+  text-transform: capitalize;
+  padding-right: 60px;
+}
+
+.wrapper .solar-conten .brickwall-primes {
+  width: 28%;
+}
+
+.wrapper .solar-conten .brickwall .img-brickwall {
+  width: 50px;
+}
+
+.wrapper .solar-conten .brickwall-primes .brickwall-gap {
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.wrapper .solar-conten .brickwall-primes .brickwall-conten .text-10 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.wrapper .solar-conten .brickwall-primes .brickwall-conten .text-p3 {
+  color: #7e7e7e;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.wrapper .solar-conten .brickwall-primes .brickwall-conten .text-p4 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tractor {
+  background-image: url(img/paral-101.jpg);
+  background-size: cover;
+  background-position: 50% 45%;
+  padding-bottom: 120px;
+}
+
+.tractor .text-11 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.tractor .text-12 {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 60px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.tractor .construction-estimated {
+  background-image: url(img/paral-12.jpg);
+  background-size: cover;
+  background-position: 50% 75%;
+}
+
+.tractor .construction-estimated .terms {
+  width: 30%;
+}
+
+.tractor .construction-estimated .terms .text-13 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+
+.tractor .construction-estimated .terms .text-14 {
+  color: #7e7e7e;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+  padding-bottom: 20px;
+}
+
+.tractor .construction-estimated .terms .terms-conditions .btn-plus-2 {
+  background-color: #ebc858;
+  border: none;
+  font-size: 20px;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+.tractor .construction-estimated .terms .terms-conditions .text-15 {
+  color: #7e7e7e;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 17px;
+  padding-left: 20px;
+}
+
+.tractor .construction-estimated .terms .terms-conditions .line-2 {
+  content: "";
+  height: 1px;
+  background-color: #f1f1f1;
+  width: 90%;
+  margin: 10px;
+}
+
+.tractor .construction-estimated .terms .btn-request {
+  background-color: #ebc858;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 70px;
+  margin: 60px 0;
+}
+
+.our-news {
+  background-image: url(img/bg-bw-03.jpg);
+  background-size: cover;
+  background-position: 50% 27%;
+}
+
+.our-news .text-16 {
+  color: #7e7e7e;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.our-news .text-17 {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 60px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.our-news .btn-posts {
+  background-color: #2d2d2d;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 0;
+  position: relative;
+  top: -65px;
+}
+
+.our-news .news {
+  background-image: url(img/post-01.jpg);
+  background-size: cover;
+}
+
+.our-news .renovated {
+  background-image: url(img/post-02.jpg);
+  background-size: cover;
+}
+
+.our-news .foundations .btn-news {
+  background-color: #2d2d2d;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border: 0;
+  margin-bottom: 150px;
+}
+
+.our-news .arhitect-planning {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 20px;
+}
+
+.our-news .foundations {
+  gap: 30px;
+}
+
+.our-news .foundations .btn-number {
+  background-color: #ebc858;
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0 12px;
+  cursor: pointer;
+  display: block;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.our-news .foundations .machinery {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.our-news .foundations .machinery .machinery-news .machinery-img {
+  width: 100px;
+  padding: 0;
+}
+
+.our-news .foundations .machinery .machinery-news .text-18 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.our-news .foundations .machinery .machinery-news .text-19 {
+  color: #7e7e7e;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 13px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.our-news .foundations .machinery .machinery-news .btn-read {
+  background-color: #ebc858;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 12px;
+  text-transform: uppercase;
+  border: none;
+  padding: 6px 8px;
+  margin: 8px 10px;
+}
+
+.our-news .foundations .machinery .machinery-news .news-2 {
+  padding-bottom: 20px;
+}
+
+.our-news .planning {
+  gap: 70px;
+  padding-bottom: 70px;
+}
+
+.our-news .planning .project-planning {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.our-news .planning .project-planning .text-20 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.our-news .planning .project-planning .icon-date {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.our-news .planning .project-planning .project-3 {
+  padding: 0 36px;
+}
+
+.our-news .planning .project-planning .project-3 .text-21 {
+  color: #7e7e7e;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 13px;
+  cursor: pointer;
+  margin: 0;
+  vertical-align: text-top;
+  padding-left: 5px;
+}
+
+.our-news .planning .project-planning .project-3 .text-22 {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.our-news .planning .project-planning .project-3 .btn-read-2 {
+  background-color: #ebc858;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 13px;
+  text-transform: uppercase;
+  border: none;
+  padding: 8px 20px;
+}
+
+.our-news .planning .project-planning .structural {
+  background-image: url(img/post-03.jpg);
+  background-size: cover;
+}
+
+.our-news .planning .project-planning .structural .structural-check {
+  padding-top: 125px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.our-news .planning .project-planning .structural .text-23 {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.our-news .planning .project-planning .structural .icon-date-2 {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.our-news .planning .project-planning .structural .text-24 {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 13px;
+  cursor: pointer;
+  margin: 0;
+  vertical-align: text-top;
+  padding-left: 5px;
+}
+
+.contact {
+  background-image: url(img/paral-17.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+}
+
+.contact .our-team {
+  padding-top: 100px;
+}
+
+.contact .contact-name {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.contact .contact-name .engineer-main-area {
+  padding: 15px 0;
+}
+
+.contact .get-in {
+  flex-grow: 1;
+  flex-basis: 0;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.contact .contact-name .text-25 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.contact .contact-name .text-26 {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 60px;
+}
+
+.contact .contact-name .main-area {
+  width: 50px;
+  padding-right: 15px;
+}
+
+.contact .contact-name .text-27 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.contact .contact-name .text-28 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 10px;
+}
+
+.contact .get-in .text-29 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact .get-in .text-30 {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.contact .get-in .get-in-touch {
+  padding: 25px 50px;
+}
+
+.contact .get-in .get-in-touch .test-1 {
+  width: 94%;
+  background-color: #f9f9f9;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.contact .get-in .get-in-touch .btn-sent {
+  width: 100%;
+  display: block;
+  background-color: #ebc858;
+  color: white;
+  padding: 10px 128px;
+  outline: none;
+  border: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.free-appointment {
+  background-image: url(img/bg-color.jpg);
+  background-size: cover;
+  padding: 15px 0;
+}
+
+.free-appointment .text-31 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin: 0;
+  padding: 30px 0;
+  margin-right: 300px;
+}
+
+.free-appointment .btn-request-it-now {
+  background-color: #e4bf46;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 25px;
+}
+
+.edile-bottom {
+  background-image: url(img/paral-04.jpg);
+  background-size: cover;
+}
+
+.edile-bottom .edile-steps {
+  padding-right: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.edile-bottom .edile-steps .test-2 {
+  padding: 0 30px;
+}
+
+.edile-bottom .edile-constructions {
+  flex-grow: 1;
+  flex-basis: 0;
+  gap: 30px;
+}
+
+.edile-bottom .edile-constructions .img-logo-edile-bottom {
+  width: 178px;
+}
+
+.edile-bottom .edile-constructions .text-32 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.edile-bottom .edile-constructions .text-32 span {
+  text-decoration: underline;
+}
+
+.edile-bottom .edile-constructions .social-icons .img-icons {
+  width: 22px;
+  padding: 0 7px;
+}
+
+.edile-bottom .edile-constructions .text-33 {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: inline;
+  padding-left: 40px;
+}
+
+.edile-bottom .edile-constructions .text-ul {
+  /*  list-style-image: url(img/iocn-arrow-right-white.png); */
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.edile-bottom .edile-constructions .text-ul .img-test {
+  width: 10px;
+  padding-right: 10px;
+}
+
+/* .edile-bottom .line-bottom {
+  border-style: none none solid;
+  border-color: #8a8a8a;
+  border-width: 1px;
+} */
+
+.edile-bottom .wordpress .text-34 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 13px;
+  text-transform: uppercase;
+  padding: 0 25px;
+}
+
+.edile-bottom .wordpress {
+  position: relative;
+}
+
+.edile-bottom .wordpress::before {
+  content: "";
+  border-top: 1px solid #8a8a8a;
+  width: 100%;
+  position: absolute;
+  top: -11px;
+}

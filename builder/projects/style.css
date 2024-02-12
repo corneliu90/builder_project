@@ -1,0 +1,813 @@
+.slider {
+  background-image: url(../img/paral-09.jpg);
+  background-size: cover;
+  background-position: 50% 49%;
+  position: relative;
+}
+
+.background-opacity {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  top: 0;
+  left: 0;
+}
+
+.slider .edile .logo-edile {
+  width: 178px;
+  padding-top: 25px;
+}
+
+.slider .menu {
+  list-style-type: none;
+  gap: 64px;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.slider .menu .btn-quotation {
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  background-color: #ebc858;
+  border: none;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.slider .menu .btn-quotation:hover {
+  background-color: black;
+}
+
+.slider .menu .selected {
+  border-style: none none solid;
+}
+
+.slider .edile .about-us {
+  padding: 50px 222px;
+}
+
+.slider .edile .about-us .text-about-us {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* .slider .edile .about-us .text-lorem {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+
+.slider .edile .about-us .btn-contact {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-color: #ebc858;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+} */
+
+.project-buget {
+  background-color: #2d2d2d;
+  margin-bottom: 50px;
+}
+
+.project-buget .project-title {
+  padding: 40px 0;
+}
+
+.project-buget .project-title .img-architect {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.project-buget .project-title .architect {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.project-buget .project-title .henry-miller {
+  color: #7e7e7e;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.project-buget .project-title .btn-request-quote {
+  background-color: #ebc858;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  padding: 12px 35px;
+}
+
+.construction {
+  background-image: url(/img/bg-bw.jpg);
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.construction .project-home {
+  margin-bottom: 50px;
+}
+
+.construction .home {
+  flex-grow: 2;
+  flex-basis: 0;
+}
+
+.construction .home-left {
+  background-image: url(/img/before.jpg);
+  background-size: 223% 100%;
+  margin-right: 1px;
+}
+
+.construction .home-left .constructi {
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgb(235, 200, 88);
+  text-transform: uppercase;
+  text-align: end;
+  padding-top: 268px;
+  position: relative;
+}
+
+.construction .home-right {
+  background-image: url(/img/after.jpg);
+  background-position: 100%;
+  background-size: 181% 100%;
+}
+
+.construction .home-right .onproject {
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 268px;
+}
+
+.construction .home-left::before {
+  content: "< >";
+  background-color: white;
+  position: absolute;
+  padding: 10px 10px;
+  left: 392px;
+  top: 176px;
+}
+
+.construction .construct-detail {
+  background-image: url(/img/bg-color.jpg);
+  background-size: cover;
+  height: 406px;
+}
+
+.construction .construct-detail .details-title {
+  padding: 40px 50px;
+}
+
+.construction .construct-detail .details {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.construction .construct-detail .customer {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.construction .construct-detail .avalon {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.construction .project-description .project-text {
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.construction .project-description .lorem {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+  padding-right: 25px;
+}
+
+.construction .project-description .lorem .select-span {
+  text-decoration: underline;
+}
+
+.construction .project-description::after {
+  content: "";
+  border-bottom: 1px solid #f1f1f1;
+  display: flex;
+  flex-grow: 2;
+  position: relative;
+}
+
+.construction .machinery-news .machinery-img {
+  width: 100px;
+  padding: 0;
+}
+
+.construction .machinery-news .text-18 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 10px;
+  color: #2d2d2d;
+}
+
+.construction .machinery-news .text-19 {
+  color: #7e7e7e;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 13px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.construction .machinery-news .btn-read {
+  background-color: #ebc858;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 12px;
+  text-transform: uppercase;
+  border: none;
+  padding: 6px 8px;
+  margin: 8px 10px;
+}
+
+.construction .machinery-news .news-2 {
+  padding-bottom: 20px;
+}
+
+.construction .foundations .project-details {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.construction .foundations .project-finishes {
+  padding-bottom: 10px;
+}
+
+.construction .foundations .project-finishes .img-check-green {
+  width: 12px;
+  padding-right: 20px;
+}
+
+.construction .foundations .project-finishes .project-quatation {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.construction .foundations .quatation {
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.construction .foundations .quatation::after {
+  content: "";
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+  position: absolute;
+  bottom: 23px;
+}
+
+.construction .foundations .lorem-text {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+  margin: 0;
+}
+
+.construction .foundations .etiam-span {
+  text-decoration: underline;
+}
+
+.construction .structural {
+  background-image: url(/img/post-03.jpg);
+  background-size: cover;
+  margin-top: 25px;
+}
+
+.construction .structural .structural-check {
+  padding-top: 125px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.construction .structural .text-23 {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.construction .structural .icon-date-2 {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.construction .structural .text-24 {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 13px;
+  cursor: pointer;
+  margin: 0;
+  vertical-align: text-top;
+  padding-left: 5px;
+}
+
+.construction .cost-calculator {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.construction .search-keyword {
+  margin-bottom: 35px;
+}
+
+.construction .search-keyword .search {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.construction .search-keyword .test-1 {
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.construction .search-keyword .btn-search {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  background-color: #ebc858;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.construction .gallery-construct .gallery {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.construction .gallery-construct .img-gallery {
+  width: 128px;
+}
+
+.construction .gallery-construct .img-construct {
+  width: 134px;
+}
+
+.construction .gallery-construct .img-architec {
+  width: 260px;
+}
+
+.construction .documents .docum {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.construction .documents .icon-downl {
+  width: 40px;
+}
+
+.construction .documents .certificate {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.construction .documents .download-icons {
+  margin-bottom: 20px;
+}
+
+.construction .building-steps {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.construction .dolor {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.construction .dolor .sapien-span {
+  text-decoration: underline;
+}
+
+.construction .echipament {
+  margin-bottom: 40px;
+}
+
+.construction .construction-echipament {
+  background-image: url(/img/banner-2.jpg);
+  background-size: cover;
+}
+
+.construction .construction-renovation {
+  background-image: url(/img/banner-1.jpg);
+  background-size: cover;
+}
+
+.construction .number-1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.construction .constr-text {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.construction .lorem-ipsum {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.construction .start-works {
+  margin-bottom: 30px;
+}
+
+.construction .start-works .works-site {
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.construction .start-works .img-plus {
+  width: 12px;
+  background-color: #ebc858;
+  padding: 6px 6px;
+  margin-right: 15px;
+}
+
+.construction .start-works .start {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.construction .start-works .preparation {
+  color: #7e7e7e;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.construction .tags-item .tags {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.construction .tags-item .btn-construction {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #7e7e7e;
+  text-transform: uppercase;
+  margin: 15px 0;
+  border: 1px solid #f1f1f1;
+  background-color: white;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.construction::after {
+  content: "";
+  border-bottom: 1px solid #f1f1f1;
+  display: flex;
+  flex-grow: 2;
+  position: relative;
+  bottom: -40px;
+}
+
+.construction .sit-amet {
+  background-color: #ebc858;
+  margin: 40px 0;
+}
+
+.construction .lorem-site {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+  margin: 0 40px;
+  padding: 20px 0;
+}
+
+.construction .john-customer {
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.construction .john-customer .img-customer {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.construction .john-customer .john-mcrayn {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.construction .john-customer .mcrayn {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.construction .latest-projects .latest {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.construction .check-all {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.latest .check-all {
+  color: #7e7e7e;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.latest .lat-projects {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #2d2d2d;
+}
+
+.latest .project {
+  background-image: url(/img/project-01-700x1000.jpg);
+  background-size: cover;
+}
+
+.latest .construct {
+  background-image: url(/img/project-03-700x1000.jpg);
+  background-size: cover;
+}
+
+.latest .project-2 {
+  background-image: url(/img/project-004-700x1000.jpg);
+  background-size: cover;
+}
+
+.latest .arhitect .btn-project {
+  background-color: black;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 450px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.latest .arhitect {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 30px 40px;
+}
+
+.latest .arhitect .align-txt .btn-plus {
+  background-color: #ebc858;
+  border: none;
+  font-size: 25px;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+.latest .arhitect .align-txt .text-7 {
+  margin: 0;
+}
+
+.slider-bottom {
+  background-color: #ebc858;
+}
+
+.slider-bottom .slider-wraper {
+  padding: 25px;
+}
+
+.slider-bottom .img-project {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.slider-bottom .img-project-2 {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.slider-bottom .coatings {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.slider-bottom .prev {
+  color: #7e7e7e;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  border: 0;
+  padding: 3px 10px;
+  text-transform: uppercase;
+}
+
+.slider-bottom .img-archive {
+  width: 30px;
+  cursor: pointer;
+}
+
+.edile-bottom {
+  background-image: url(/img/paral-04.jpg);
+  background-size: cover;
+}
+
+.edile-bottom .edile-steps {
+  padding-right: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.edile-bottom .edile-steps .test-2 {
+  padding: 0 30px;
+}
+
+.edile-bottom .edile-constructions {
+  flex-grow: 1;
+  flex-basis: 0;
+  gap: 30px;
+}
+
+.edile-bottom .edile-constructions .img-logo-edile-bottom {
+  width: 178px;
+}
+
+.edile-bottom .edile-constructions .text-32 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.edile-bottom .edile-constructions .text-32 span {
+  text-decoration: underline;
+}
+
+.edile-bottom .edile-constructions .social-icons .img-icons {
+  width: 22px;
+  padding: 0 7px;
+}
+
+.edile-bottom .edile-constructions .text-33 {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: inline;
+  padding-left: 40px;
+}
+
+.edile-bottom .edile-constructions .text-ul {
+  /*  list-style-image: url(img/iocn-arrow-right-white.png); */
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.edile-bottom .edile-constructions .text-ul .img-test {
+  width: 10px;
+  padding-right: 10px;
+}
+
+.edile-bottom .wordpress .text-34 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 13px;
+  text-transform: uppercase;
+  padding: 0 25px;
+}
+
+.edile-bottom .wordpress {
+  position: relative;
+}
+
+.edile-bottom .wordpress::before {
+  content: "";
+  border-top: 1px solid #8a8a8a;
+  width: 100%;
+  position: absolute;
+  top: -11px;
+}
