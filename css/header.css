@@ -1,0 +1,10 @@
+.site-info {
+  background-color: #2d2d2d;
+  font-size: 13px;
+  padding: 8px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.site-info .globe-icon {
+  margin-right: 5px;
+}
