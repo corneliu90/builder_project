@@ -89,25 +89,25 @@
 }
 
 .slider .edile .drill {
-  background-image: url(/img/product-03.jpg);
+  background-image: url(../img/product-03.jpg);
   background-size: cover;
   padding: 30px;
 }
 
 .slider .edile .cutter {
-  background-image: url(/img/product-01.jpg);
+  background-image: url(../img/product-01.jpg);
   background-size: cover;
   padding: 30px;
 }
 
 .slider .edile .toolbox {
-  background-image: url(/img/product-04.jpg);
+  background-image: url(../img/product-04.jpg);
   background-size: cover;
   padding: 30px;
 }
 
 .slider .edile .helmet {
-  background-image: url(/img/product-02.jpg);
+  background-image: url(../img/product-02.jpg);
   background-size: cover;
   padding: 30px;
 }
@@ -190,13 +190,13 @@
 }
 
 .construction {
-  background-image: url(/img/banner-1.jpg);
+  background-image: url(../img/banner-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .renovate {
-  background-image: url(/img/banner-2.jpg);
+  background-image: url(../img/banner-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -229,7 +229,7 @@
 }
 
 .edile-bottom {
-  background-image: url(/img/paral-04.jpg);
+  background-image: url(../img/paral-04.jpg);
   background-size: cover;
 }
 
